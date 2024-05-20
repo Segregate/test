@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const MyHomePage(title: 'Flutter teemo Home Page'),
+        home: const MyHomePage(title: 'Flutter tt Home Page'),
       ),
     );
   }
