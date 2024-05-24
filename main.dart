@@ -41,9 +41,7 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have push the button this many times:',
-            ),
+            const Text('You have enter the button this many times:'),
             BlocConsumer<CounterCubit, CounterState>(
               listener: (context, state) {
                 SnackBar snackBar;
