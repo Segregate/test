@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'You have pressed the button this many times:',
             ),
             BlocConsumer<CounterCubit, CounterState>(
               listener: (context, state) {
